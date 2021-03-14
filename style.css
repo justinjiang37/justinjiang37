@@ -1,0 +1,257 @@
+@media screen and (max-width : 320px) {
+    body {
+        font-size: 10em;
+    }
+}
+
+@media screen and (max-width : 1204px) {
+    body {
+        font-size: 20em;
+    }
+}
+
+/* do today justin, no procra */
+/* adjust font size acoording to the size of the screen */
+/* change so that you can have the option to scroll to view more, not everything
+on one page*/
+
+/* Tags */
+html, body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: rgb(200, 228, 220);
+  /* max-width: max-content; */
+  /* margin: auto !important; */
+  /* text-align: center; */
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+h4 {
+    text-align: center;
+    font-size: 15px !important;
+    font-weight: 100 !important;
+}
+
+h1 {
+    color: black;
+}
+div h2 {
+    margin-top: 50px;
+    margin-left: 250px;
+    padding: 20px;
+}
+h3 {
+    margin: auto;
+    text-align: center;
+    opacity: 1 !important;
+    color: rgb(0, 0, 0) !important;
+    background-image: url(code.png);
+}
+p {
+    text-align: left;
+    margin: auto;
+}
+
+img {
+    /* opacity: 0.5; */
+}
+
+/* classes & id */
+#overwrite {
+    /* margin: auto; */
+
+}
+
+#About {
+    margin-top: 20px;
+    margin-right: 200px;
+    padding-right: 100px;
+}
+
+#About-title {
+    margin-top: 50px;
+    margin-right: 200px;
+    padding-right: 100px;
+    font-weight: 100;
+}
+.contact {
+    bottom: 0px;
+}
+
+.section-button {
+    font-weight: 100;
+    margin: 10px;
+    text-align: center;
+}
+
+.header {
+    font-weight: 200;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.non-styled-a {
+    text-decoration: none;
+}
+
+
+.col {
+    text-align: center;
+    padding-top: 20px !important;
+}
+/*
+.nav-tile-container {
+    display: flex;
+    flex-direction: column;
+} */
+
+/* Nav */
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* padding: auto; */
+    /* padding-left: 80px !important; */
+    margin: auto;
+}
+
+.home-nav {
+    margin-top: 120px ;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+
+#name {
+    text-align: center;
+    font-weight: 400;
+    margin-top: 100PX;
+    margin-bottom: 50px;
+}
+
+#projects-block {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#codeImg {
+    margin-right: 20px;
+    width:500px;
+    height: 300px;
+    /* opacity: 0.5; */
+    text-align: center;
+    margin-top: 20px !important;
+    background-image: url("./Assets/images/codeBackground.png");
+}
+
+#achievementsImg {
+    margin-right: 20px;
+    width:500px;
+    height: 300px;
+    /* opacity: 0.5; */
+    text-align: center;
+    margin-top: 20px !important;
+    background-image: url("./Assets/images/achievementsBackground.png");
+}
+#goalsImg {
+    margin-right: 20px;
+    width:500px;
+    height: 300px;
+    /* opacity: 0.5; */
+    text-align: center;
+    margin-top: 20px !important;
+    background-image: url("./Assets/images/goalsBackground.png");
+}
+#AboutMeImg {
+    margin-right: 20px;
+    width:500px;
+    height: 300px;
+    /* opacity: 0.5; */
+    text-align: center;
+    margin-top: 20px !important;
+    background-image: url("./Assets/images/AboutMeBackground.png");
+}
+
+.Navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+#nav-elements {
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Projects */
+.Alissa-description {
+    padding-left: 90px;
+    padding-right: 115px;
+    text-align: left;
+}
+
+.project {
+
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#YouTube-Git {
+    margin: auto;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+#Alissa-Git {
+    margin-top: 120px;
+    margin-left: 20px;
+}
+
+
+#project-title {
+    margin-top: 50px;
+    text-align: left;
+    font-weight: 300;
+    padding-left: 0%;
+}
+
+.YouTube-description {
+    padding-left: 110px;
+    padding-right: 100px;
+    text-align: left;
+}
