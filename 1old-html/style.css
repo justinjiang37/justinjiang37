@@ -10,11 +10,6 @@
     }
 }
 
-/* do today justin, no procra */
-/* adjust font size acoording to the size of the screen */
-/* change so that you can have the option to scroll to view more, not everything
-on one page*/
-
 /* Tags */
 html, body {
     font-family: 'Montserrat', sans-serif;
@@ -47,38 +42,30 @@ div h2 {
     padding: 20px;
 }
 h3 {
-    margin: auto;
+    margin-top: 5px !important;
     text-align: center;
-    opacity: 1 !important;
-    color: rgb(0, 0, 0) !important;
-    background-image: url(code.png);
+    font-weight: 100 !important;
+    font-size: 24px !important;
+    margin-bottom: 100px !important;
 }
 p {
     text-align: left;
     margin: auto;
 }
 
-img {
-    /* opacity: 0.5; */
-}
-
 /* classes & id */
-#overwrite {
-    /* margin: auto; */
-
-}
 
 #About {
-    margin-top: 20px;
-    margin-right: 200px;
-    padding-right: 100px;
+    padding-left: 300px;
+    text-align: left;
 }
 
 #About-title {
-    margin-top: 50px;
-    margin-right: 200px;
-    padding-right: 100px;
-    font-weight: 100;
+    margin-top: 100px;
+    padding-left: 300px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 30px;
 }
 .contact {
     bottom: 0px;
@@ -105,11 +92,6 @@ img {
     text-align: center;
     padding-top: 20px !important;
 }
-/*
-.nav-tile-container {
-    display: flex;
-    flex-direction: column;
-} */
 
 /* Nav */
 
@@ -144,7 +126,7 @@ img {
     text-align: center;
     font-weight: 400;
     margin-top: 100PX;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 #projects-block {
