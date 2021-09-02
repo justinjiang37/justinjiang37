@@ -1,0 +1,17 @@
+HOME:
+
+NavBar
+	navButton
+		Home
+		About me
+		Contact me
+TitleText
+ContentTable
+	ContentText (title and description)
+	ContentVisual (image)
+		Projects
+		Goal
+		Achivements
+		About me
+Footer/contact
+
