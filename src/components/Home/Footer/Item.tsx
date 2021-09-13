@@ -3,7 +3,9 @@ import { makeStyles } from '@material-ui/core';
 
 const useStyles = makeStyles(theme => ({
     item : {
-        marginLeft:40
+        marginLeft:40,
+        fontFamily: "Roboto",
+        fontSize : 28
     }
 }))
 
