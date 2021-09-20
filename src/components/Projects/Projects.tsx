@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core';
 import Footer from '../Footer/Footer';
-import ProjectsConetent from './ProjectsContent/ProjectsConetent';
+import ProjectsContent from './ProjectsContent/ProjectsContent';
 import Heading from '../Heading/Heading';
 
 const useStyles = makeStyles(theme => ({
@@ -12,7 +12,7 @@ export default function Projects() {
     return (
         <div>
             <Heading></Heading>
-            <ProjectsConetent></ProjectsConetent>
+            <ProjectsContent></ProjectsContent>
             <Footer></Footer>
         </div>
     )

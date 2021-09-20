@@ -9,7 +9,6 @@ const useStyles = makeStyles(theme => ({
         // position: "absolute",
         // top: 0, right: 0, bottom: 0, left: 0,
         width:2289,
-        backgroundColor : 'pink',
         background: 'linear-gradient(to right bottom, #3e7be6, #6c3fe8)',
         marginTop : 400
     },
