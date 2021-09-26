@@ -3,6 +3,9 @@ import { makeStyles } from '@material-ui/core';
 
 const useStyles = makeStyles(theme => ({
     ProjectContentText: {
+        fontSize: 23,
+        fontWeight: 600,
+        fontFamily: "Helvetica"
     }
 
 }))

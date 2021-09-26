@@ -1,9 +1,13 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core';
+import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles(theme => ({
+
     ProjectContentTitle: {
-        fontSize: 50,
+        fontSize: 45,
+        fontWeight: 800,
+        fontFamily: ""
     }
 
 }))

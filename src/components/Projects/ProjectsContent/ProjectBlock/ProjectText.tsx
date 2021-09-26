@@ -5,11 +5,11 @@ import ProjectContentText from './ProjectContentText';
 
 const useStyles = makeStyles(theme => ({
     ProjectsBlock: {
-        display: "flex",
+        alignContent:"center",
         position: "relative",
-        top: 500
+        top: 500,
+        right: -600
     }
-
 }))
 
 export default function ProjectsBlock(props: any) {
@@ -19,9 +19,6 @@ export default function ProjectsBlock(props: any) {
             <div>
                 <ProjectContentTitle title={props.title}></ProjectContentTitle>
                 <ProjectContentText text={props.text}></ProjectContentText>
-            </div>
-            <div>
-
             </div>
         </div>
     )

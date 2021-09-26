@@ -28,7 +28,7 @@ export default function Footer() {
             <a href="https://www.instagram.com/justinjiang37/"><FontAwesomeIcon icon={faInstagram} className={classes.item}></FontAwesomeIcon></a>
             <a href="https://www.youtube.com/channel/UCNBCMFr6OMng0Ia9dK3Oe6g"><FontAwesomeIcon icon={faYoutube} className={classes.item}></FontAwesomeIcon></a>
             <a href="https://twitter.com/JustinJ59047756"><FontAwesomeIcon icon={faTwitter} className={classes.item}></FontAwesomeIcon></a>
-            <a href="linkedin.com/in/justin-jiang-5bb582215"><FontAwesomeIcon icon={faLinkedin} className={classes.item}></FontAwesomeIcon></a>
+            <a href="https://www.linkedin.com/in/justin-jiang-5bb582215"><FontAwesomeIcon icon={faLinkedin} className={classes.item}></FontAwesomeIcon></a>
         </div>
     )
 }
