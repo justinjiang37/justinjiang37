@@ -5,7 +5,8 @@ const useStyles = makeStyles(theme => ({
     image: {
         position: "absolute",
         right: 300,
-        top: 600
+        top: 600,
+        minWidth: 0
     },
     button : {
         position: "absolute",

@@ -1,25 +1,33 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core';
-import ProjectContentTitle from './ProjectContentTitle';
-import ProjectContentText from './ProjectContentText';
 
 const useStyles = makeStyles(theme => ({
-    ProjectsBlock: {
-        alignContent:"center",
-        position: "relative",
-        top: 500,
-        right: -600
+    ProjectsText: {
+        display: "flex",
+        flexDirection: "column",
+        alignContent: "center",
+        width: 700,
+        height: 600
+    },
+    title: {
+        fontSize: 45,
+        fontWeight: 800,
+        fontFamily: ""
+    },
+    text: {
+        fontSize: 23,
+        fontWeight: 600,
+        fontFamily: "Helvetica"
     }
+
 }))
 
-export default function ProjectsBlock(props: any) {
+export default function ProjectsText(props: any) {
     const classes = useStyles();
     return (
-        <div className={classes.ProjectsBlock}>
-            <div>
-                <ProjectContentTitle title={props.title}></ProjectContentTitle>
-                <ProjectContentText text={props.text}></ProjectContentText>
-            </div>
+        <div className={classes.ProjectsText}>
+            <div className={classes.title}>{props.title}</div>
+            <div className={classes.text}>{props.text}</div>
         </div>
     )
 }
