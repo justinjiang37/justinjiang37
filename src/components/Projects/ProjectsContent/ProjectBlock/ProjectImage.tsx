@@ -3,15 +3,12 @@ import { makeStyles } from '@material-ui/core';
 
 const useStyles = makeStyles(theme => ({
     image: {
-        position: "absolute",
-        right: 300,
-        top: 600,
-        minWidth: 0
+        position: "relative",
+        top: -20
     },
     button : {
-        position: "absolute",
-        top: 280,
-        right: 335
+        position: "relative",
+        top: -330,
     }
 }))
 

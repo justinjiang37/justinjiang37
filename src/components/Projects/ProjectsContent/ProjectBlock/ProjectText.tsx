@@ -3,21 +3,20 @@ import { makeStyles } from '@material-ui/core';
 
 const useStyles = makeStyles(theme => ({
     ProjectsText: {
-        display: "flex",
-        flexDirection: "column",
-        alignContent: "center",
         width: 700,
-        height: 600
+        height: 600,
+        position: "relative",
+        top: 100
     },
     title: {
         fontSize: 45,
         fontWeight: 800,
-        fontFamily: ""
+        fontFamily: "",
     },
     text: {
         fontSize: 23,
         fontWeight: 600,
-        fontFamily: "Helvetica"
+        fontFamily: "Helvetica",
     }
 
 }))
